@@ -1,3 +1,5 @@
+Este proyecto consiste en un flujo de Power Automate, un script de Python y un tablero de Power Bi.
+
 # tablero_leyDeEmprendimiento
 
 La finalidad del tablero es tener una perspectiva sobre la Ley de emprendimiento en Cesde.
@@ -49,4 +51,28 @@ para calcular el número de usuarios que tienen cursos con estado "Certificado" 
 cuyo estado de curso es "En progreso" en la tabla 'P Y F'.
 
 -Usuarios Suspendidos = COUNT('Usuarios suspendidos'[Número de ID]): se utiliza para contar el número de usuarios suspendidos en la tabla 'Usuarios suspendidos'.
+
+
+FLUJO LEY DE EMPRENDIMIENTO Y SUSCRIPCIÓN EMPRESARIAL
+
+Este flujo se encuentra diseñado en Power Automate.
+
+Con Power Automate, los usuarios pueden crear flujos de trabajo sin necesidad de conocimientos de programación, utilizando una interfaz gráfica intuitiva. Pueden automatizar tareas y procesos repetitivos, como la recolección y procesamiento de datos, la notificación de eventos, la sincronización de datos entre aplicaciones, la aprobación de documentos y mucho más.
+
+Power Automate se integra con una amplia gama de servicios y aplicaciones populares, como Office 365, SharePoint, Dynamics 365, Teams, Salesforce, Twitter, entre otros. Esto permite a los usuarios conectar diferentes sistemas y aprovechar las capacidades de automatización en diversos escenarios empresariales.
+
+También se encuentran los archivos de excel que son la fuente de datos, si el proyecto se retoma, actualizarán la forma de obtenerlos desde la web y las plataformas del CESDE.
+
+Y por último para el proyecto de suscripción empresarial se corre un script de Python que realiza la estructuración de los datos obtenidos. "AutomatizacionCESDE.py"
+
+
+ 
+
+
+
+
+
+
+
+
 
